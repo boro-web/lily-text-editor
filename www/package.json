@@ -1,0 +1,56 @@
+{
+  "name": "www",
+  "private": true,
+  "version": "3.17.2",
+  "description": "A markdown editor with preview, implemented with React.js and TypeScript.",
+  "homepage": "https://uiwjs.github.io/react-md-editor/",
+  "author": "kenny wang <wowohoo@qq.com>",
+  "scripts": {
+    "build": "kkt build",
+    "start": "kkt start",
+    "map": "source-map-explorer build/static/js/*.js --html build/website-result.html"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@kkt/less-modules": "^7.2.0",
+    "@kkt/raw-modules": "^7.2.0",
+    "@kkt/scope-plugin-options": "^7.2.0",
+    "@types/katex": "~0.14.0",
+    "@types/react": "~18.0.9",
+    "@types/react-dom": "~18.0.3",
+    "kkt": "^7.2.0",
+    "markdown-react-code-preview-loader": "^2.1.2",
+    "source-map-explorer": "~2.5.2"
+  },
+  "dependencies": {
+    "@uiw/react-github-corners": "~1.5.3",
+    "@b0r0/react-md-editor": "3.17.2",
+    "@wcj/dark-mode": "~1.0.9",
+    "dom-to-image": "^2.6.0",
+    "katex": "~0.16.0",
+    "mermaid": "~9.1.0",
+    "react": "~18.2.0",
+    "react-code-preview-layout": "^2.0.4",
+    "react-dom": "~18.2.0",
+    "rehype-ignore": "^1.0.1",
+    "rehype-sanitize": "~5.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

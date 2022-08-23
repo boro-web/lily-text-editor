@@ -1,0 +1,60 @@
+{
+  "private": true,
+  "scripts": {
+    "⬇️⬇️⬇️⬇️⬇️ package ⬇️⬇️⬇️⬇️⬇️": "▼▼▼▼▼ package ▼▼▼▼▼",
+    "watch": "npm run-script watch --workspace @b0r0/react-md-editor",
+    "build": "npm run-script build --workspace @b0r0/react-md-editor",
+    "doc": "npm run-script build --workspace www",
+    "start": "npm run-script start --workspace www",
+    "⬆️⬆️⬆️⬆️⬆️ package ⬆️⬆️⬆️⬆️⬆️": "▲▲▲▲▲ package ▲▲▲▲▲",
+    "prepare": "husky install",
+    "version": "lerna version --exact --force-publish --no-push --no-git-tag-version",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "remove": "npm run clean && lerna exec \"rm -rf package-lock.json\" --scope react-code-preview-layout --scope website",
+    "clean": "lerna clean --yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sankar-boro/lily-text-editor"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@kkt/less-modules": "^7.2.0",
+    "@kkt/ncc": "^1.0.14",
+    "@types/react-test-renderer": "~18.0.0",
+    "compile-less-cli": "~1.8.13",
+    "husky": "~8.0.0",
+    "kkt": "^7.2.0",
+    "lerna": "^5.1.2",
+    "lint-staged": "~13.0.0",
+    "prettier": "^2.7.1",
+    "react-test-renderer": "~18.2.0",
+    "tsbb": "~3.7.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "workspaces": [
+    "core",
+    "www"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "editor",
+    "lily-editor",
+    "markdown",
+    "lily-markdown",
+    "lily-text-editor",
+    "lily-markdown-editor",
+    "markdown-editor",
+    "md",
+    "code"
+  ]
+}
