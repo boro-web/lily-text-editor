@@ -52,8 +52,8 @@ export default function App() {
           <a href="https://bundlephobia.com/package/@b0r0/lily-text-editor" target="__blank">
             <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@b0r0/lily-text-editor" />
           </a>
-          <a href="https://uiwjs.github.io/lily-text-editor/coverage/lcov-report" target="__blank">
-            <img alt="Coverage Status" src="https://uiwjs.github.io/lily-text-editor/coverage/badges.svg" />
+          <a href="https://b0r0.github.io/lily-text-editor/coverage/lcov-report" target="__blank">
+            <img alt="Coverage Status" src="https://b0r0.github.io/lily-text-editor/coverage/badges.svg" />
           </a>
           <br />
           <a href="https://github.com/uiwjs/lily-text-editor/actions" target="__blank">

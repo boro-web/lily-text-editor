@@ -15,8 +15,8 @@
   <a href="https://bundlephobia.com/package/@b0r0/lily-text-editor" target="__blank">
     <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@b0r0/lily-text-editor">
   </a>
-  <a href="https://uiwjs.github.io/lily-text-editor/coverage/lcov-report" target="__blank">
-    <img alt="Coverage Status" src="https://uiwjs.github.io/lily-text-editor/coverage/badges.svg" />
+  <a href="https://b0r0.github.io/lily-text-editor/coverage/lcov-report" target="__blank">
+    <img alt="Coverage Status" src="https://b0r0.github.io/lily-text-editor/coverage/badges.svg" />
   </a>
   <br />
   <a href="https://github.com/uiwjs/lily-text-editor/actions" target="__blank">
@@ -56,7 +56,7 @@ npm i @b0r0/lily-text-editor
 ### Using
 
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/markdown-editor-for-react-izdd6?fontsize=14&hidenavigation=1&theme=dark)
-[![Open in Github gh-pages](https://img.shields.io/badge/Open%20In-Github%20gh--pages-blue?logo=github)](https://uiwjs.github.io/lily-text-editor/)
+[![Open in Github gh-pages](https://img.shields.io/badge/Open%20In-Github%20gh--pages-blue?logo=github)](https://b0r0.github.io/lily-text-editor/)
 [![Open in Gitee gh-pages](https://img.shields.io/badge/Open%20In-Gitee%20gh--pages-blue?logo=web)](https://uiw.gitee.io/lily-text-editor/)
 
 ```jsx mdx:preview
@@ -689,7 +689,7 @@ npm run start  # Preview code example.
 As always, thanks to our amazing contributors!
 
 <a href="https://github.com/uiwjs/lily-text-editor/graphs/contributors">
-  <img src="https://uiwjs.github.io/lily-text-editor/CONTRIBUTORS.svg" />
+  <img src="https://b0r0.github.io/lily-text-editor/CONTRIBUTORS.svg" />
 </a>
 
 Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).

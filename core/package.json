@@ -1,9 +1,9 @@
 {
   "name": "@b0r0/lily-text-editor",
-  "version": "3.17.2",
+  "version": "0.1.0",
   "description": "A markdown editor with preview, implemented with React.js and TypeScript.",
-  "homepage": "https://uiwjs.github.io/lily-text-editor/",
-  "author": "kenny wang <wowohoo@qq.com>",
+  "homepage": "https://b0r0.github.io/lily-text-editor/",
+  "author": "sankar boro <sankar.boro@yahoo.com>",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "scripts": {
