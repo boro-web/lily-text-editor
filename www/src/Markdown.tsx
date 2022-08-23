@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react';
 import CodeLayout from 'react-code-preview-layout';
 import { getMetaId, isMeta, getURLParameters } from 'markdown-react-code-preview-loader';
-import MDEditor from '@b0r0/react-md-editor';
+import MDEditor from '@b0r0/lily-text-editor';
 import rehypeIgnore from 'rehype-ignore';
-import data from '@b0r0/react-md-editor/README.md';
+import data from '@b0r0/lily-text-editor/README.md';
 import { CodeComponent, ReactMarkdownNames } from 'react-markdown/lib/ast-to-react';
 
 const CodePreview: CodeComponent | ReactMarkdownNames = ({ inline, node, ...props }) => {

@@ -1,35 +1,35 @@
 <!--rehype:ignore:start-->
 <p align="center">
-  <a href="https://uiwjs.github.io/npm-unpkg/#/pkg/@b0r0/react-md-editor/file/README.md">
-    <img alt="react-md-editor logo" src="https://user-images.githubusercontent.com/1680273/146292033-0e5e57fc-6f3e-4032-9fa6-0de05f239e36.png">
+  <a href="https://uiwjs.github.io/npm-unpkg/#/pkg/@b0r0/lily-text-editor/file/README.md">
+    <img alt="lily-text-editor logo" src="https://user-images.githubusercontent.com/1680273/146292033-0e5e57fc-6f3e-4032-9fa6-0de05f239e36.png">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@b0r0/react-md-editor" target="__blank">
-    <img alt="Downloads" src="https://img.shields.io/npm/dm/@b0r0/react-md-editor.svg?style=flat">
+  <a href="https://www.npmjs.com/package/@b0r0/lily-text-editor" target="__blank">
+    <img alt="Downloads" src="https://img.shields.io/npm/dm/@b0r0/lily-text-editor.svg?style=flat">
   </a>
-  <a href="https://www.jsdelivr.com/package/npm/@b0r0/react-md-editor" target="__blank">
-    <img alt="jsDelivr CDN" src="https://data.jsdelivr.com/v1/package/npm/@b0r0/react-md-editor/badge?style=rounded" />
+  <a href="https://www.jsdelivr.com/package/npm/@b0r0/lily-text-editor" target="__blank">
+    <img alt="jsDelivr CDN" src="https://data.jsdelivr.com/v1/package/npm/@b0r0/lily-text-editor/badge?style=rounded" />
   </a>
-  <a href="https://bundlephobia.com/package/@b0r0/react-md-editor" target="__blank">
-    <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@b0r0/react-md-editor">
+  <a href="https://bundlephobia.com/package/@b0r0/lily-text-editor" target="__blank">
+    <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@b0r0/lily-text-editor">
   </a>
-  <a href="https://uiwjs.github.io/react-md-editor/coverage/lcov-report" target="__blank">
-    <img alt="Coverage Status" src="https://uiwjs.github.io/react-md-editor/coverage/badges.svg" />
+  <a href="https://uiwjs.github.io/lily-text-editor/coverage/lcov-report" target="__blank">
+    <img alt="Coverage Status" src="https://uiwjs.github.io/lily-text-editor/coverage/badges.svg" />
   </a>
   <br />
-  <a href="https://github.com/uiwjs/react-md-editor/actions" target="__blank">
-    <img alt="Build & Deploy" src="https://github.com/uiwjs/react-md-editor/actions/workflows/ci.yml/badge.svg" />
+  <a href="https://github.com/uiwjs/lily-text-editor/actions" target="__blank">
+    <img alt="Build & Deploy" src="https://github.com/uiwjs/lily-text-editor/actions/workflows/ci.yml/badge.svg" />
   </a>
-  <a href="https://uiwjs.github.io/npm-unpkg/#/pkg/@b0r0/react-md-editor/file/README.md" target="__blank">
+  <a href="https://uiwjs.github.io/npm-unpkg/#/pkg/@b0r0/lily-text-editor/file/README.md" target="__blank">
     <img src="https://img.shields.io/badge/Open%20in-unpkg-blue" alt="Open in unpkg">
   </a>
-  <a href="https://gitee.com/uiw/react-md-editor" target="__blank">
+  <a href="https://gitee.com/uiw/lily-text-editor" target="__blank">
     <img alt="Gitee" src="https://jaywcjlove.github.io/sb/ico/gitee.svg">
   </a>
-  <a href="https://www.npmjs.com/package/@b0r0/react-md-editor" target="__blank">
-    <img alt="npm version" src="https://img.shields.io/npm/v/@b0r0/react-md-editor.svg">
+  <a href="https://www.npmjs.com/package/@b0r0/lily-text-editor" target="__blank">
+    <img alt="npm version" src="https://img.shields.io/npm/v/@b0r0/lily-text-editor.svg">
   </a>
 </p>
 
@@ -45,23 +45,23 @@ A simple markdown editor with preview, implemented with React.js and TypeScript.
 - 🚘 Automatic list on new lines.
 - 😻 GitHub flavored markdown support.
 - 🌒 Support dark-mode/night-mode **@v3.11.0+**.
-- 💡 Support [next.js](https://github.com/uiwjs/react-md-editor/issues/52#issuecomment-848969341), [Use examples](#support-nextjs) in [next.js](https://nextjs.org/).
+- 💡 Support [next.js](https://github.com/uiwjs/lily-text-editor/issues/52#issuecomment-848969341), [Use examples](#support-nextjs) in [next.js](https://nextjs.org/).
 
 ### Quick Start
 
 ```bash
-npm i @b0r0/react-md-editor
+npm i @b0r0/lily-text-editor
 ```
 
 ### Using
 
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/markdown-editor-for-react-izdd6?fontsize=14&hidenavigation=1&theme=dark)
-[![Open in Github gh-pages](https://img.shields.io/badge/Open%20In-Github%20gh--pages-blue?logo=github)](https://uiwjs.github.io/react-md-editor/)
-[![Open in Gitee gh-pages](https://img.shields.io/badge/Open%20In-Gitee%20gh--pages-blue?logo=web)](https://uiw.gitee.io/react-md-editor/)
+[![Open in Github gh-pages](https://img.shields.io/badge/Open%20In-Github%20gh--pages-blue?logo=github)](https://uiwjs.github.io/lily-text-editor/)
+[![Open in Gitee gh-pages](https://img.shields.io/badge/Open%20In-Gitee%20gh--pages-blue?logo=web)](https://uiw.gitee.io/lily-text-editor/)
 
 ```jsx mdx:preview
 import React from "react";
-import MDEditor from '@b0r0/react-md-editor';
+import MDEditor from '@b0r0/lily-text-editor';
 
 export default function App() {
   const [value, setValue] = React.useState("**Hello world!!!**");
@@ -117,7 +117,7 @@ Otherwise, your app is vulnerable to XSS. This can be achieved by adding [rehype
 
 ```jsx mdx:preview
 import React from "react";
-import MDEditor from '@b0r0/react-md-editor';
+import MDEditor from '@b0r0/lily-text-editor';
 import rehypeSanitize from "rehype-sanitize";
 
 export default function App() {
@@ -138,11 +138,11 @@ export default function App() {
 
 ### Custom Toolbars
 
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/react-md-editor-custom-toolbars-m2n10?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/lily-text-editor-custom-toolbars-m2n10?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx mdx:preview
 import React from "react";
-import MDEditor, { commands } from '@b0r0/react-md-editor';
+import MDEditor, { commands } from '@b0r0/lily-text-editor';
 
 const title3 = {
   name: 'title3',
@@ -240,7 +240,7 @@ Customize the toolbar with `commands` and `extraCommands` props.
 
 ```jsx mdx:preview
 import React from "react";
-import MDEditor, { commands } from '@b0r0/react-md-editor';
+import MDEditor, { commands } from '@b0r0/lily-text-editor';
 
 export default function App() {
   const [value, setValue] = React.useState("Hello Markdown! `Tab` key uses default behavior");
@@ -295,7 +295,7 @@ re-render `toolbar` element.
 
 ```jsx mdx:preview
 import React from "react";
-import MDEditor, { commands } from '@b0r0/react-md-editor';
+import MDEditor, { commands } from '@b0r0/lily-text-editor';
 
 export default function App() {
   const [value, setValue] = React.useState("Hello Markdown! `Tab` key uses default behavior");
@@ -331,8 +331,8 @@ export default function App() {
 
 ### Editor Font Size
 
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/markdown-editor-for-react-uiwjs-react-md-editor-issues-425-2epmgh?fontsize=14&hidenavigation=1&theme=dark)
-[![#425](https://img.shields.io/github/issues/detail/state/uiwjs/react-md-editor/425)](https://github.com/uiwjs/react-md-editor/issues/425#issuecomment-1209514536)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/markdown-editor-for-react-uiwjs-lily-text-editor-issues-425-2epmgh?fontsize=14&hidenavigation=1&theme=dark)
+[![#425](https://img.shields.io/github/issues/detail/state/uiwjs/lily-text-editor/425)](https://github.com/uiwjs/lily-text-editor/issues/425#issuecomment-1209514536)
 
 ```css
 .w-md-editor-text-pre > code,
@@ -344,12 +344,12 @@ export default function App() {
 
 ### Preview Markdown
 
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/react-md-editor-preview-markdown-vrucl?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/lily-text-editor-preview-markdown-vrucl?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx mdx:preview
 import React from "react";
 import ReactDOM from "react-dom";
-import MDEditor from '@b0r0/react-md-editor';
+import MDEditor from '@b0r0/lily-text-editor';
 
 export default function App() {
   return (
@@ -368,7 +368,7 @@ The following example is preview in [CodeSandbox](https://codesandbox.io/s/markd
 
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/headless-frog-em8yg?fontsize=14&hidenavigation=1&theme=dark)
 
-> ⚠️ Upgrade v2 to v3 [d025430](https://github.com/uiwjs/react-md-editor/blob/7b9f11ab689a7ea288df3e82c26f4f0e9a53d271/website/ExmapleKaTeX.tsx#L1-L63)
+> ⚠️ Upgrade v2 to v3 [d025430](https://github.com/uiwjs/lily-text-editor/blob/7b9f11ab689a7ea288df3e82c26f4f0e9a53d271/website/ExmapleKaTeX.tsx#L1-L63)
 
 ```bash
 npm install katex
@@ -377,7 +377,7 @@ npm install katex
 ```jsx mdx:preview
 import React from "react";
 import ReactDOM from "react-dom";
-import MDEditor from '@b0r0/react-md-editor';
+import MDEditor from '@b0r0/lily-text-editor';
 import { getCodeString } from 'rehype-rewrite';
 import katex from 'katex';
 import 'katex/dist/katex.css';
@@ -430,11 +430,11 @@ export default function App() {
 
 ### Markdown text to Image
 
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/react-md-editor-text-to-images-ijqmx?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/lily-text-editor-text-to-images-ijqmx?fontsize=14&hidenavigation=1&theme=dark)
 
 ```tsx mdx:preview
 import React from "react";
-import MDEditor, { commands, ICommand, TextState, TextAreaTextApi } from "@b0r0/react-md-editor";
+import MDEditor, { commands, ICommand, TextState, TextAreaTextApi } from "@b0r0/lily-text-editor";
 import domToImage from "dom-to-image";
 
 const textToImage: ICommand = {
@@ -488,7 +488,7 @@ npm install mermaid
 ```jsx mdx:preview
 import React, { useState, useRef, useEffect } from "react";
 import ReactDOM from "react-dom";
-import MDEditor from "@b0r0/react-md-editor";
+import MDEditor from "@b0r0/lily-text-editor";
 import mermaid from "mermaid";
 
 const mdMermaid = `The following are some examples of the diagrams, charts and graphs that can be made using Mermaid and the Markdown-inspired text specific to it. 
@@ -579,15 +579,15 @@ ReactDOM.render(<App />, document.getElementById("container"));
 
 ### Support Nextjs
 
-Use examples in [nextjs](https://nextjs.org/). [`#52`](https://github.com/uiwjs/react-md-editor/issues/52#issuecomment-848969341) [`#224`](https://github.com/uiwjs/react-md-editor/issues/224#issuecomment-901112079)
+Use examples in [nextjs](https://nextjs.org/). [`#52`](https://github.com/uiwjs/lily-text-editor/issues/52#issuecomment-848969341) [`#224`](https://github.com/uiwjs/lily-text-editor/issues/224#issuecomment-901112079)
 
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/nextjs-example-react-md-editor-qjhn7?fontsize=14&hidenavigation=1&theme=dark) [![Open in StackBlitz](https://img.shields.io/badge/Open%20In-StackBlitz-green)](https://stackblitz.com/edit/nextjs-react-md-editor?embed=1&file=pages/index.js&hideExplorer=1&hideNavigation=1&theme=dark)
-[![#52](https://img.shields.io/github/issues/detail/state/uiwjs/react-md-editor/52)](https://github.com/uiwjs/react-md-editor/issues/52#issuecomment-848969341)
-[![#224](https://img.shields.io/github/issues/detail/state/uiwjs/react-md-editor/224)](https://github.com/uiwjs/react-md-editor/issues/224#issuecomment-901112079)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/nextjs-example-lily-text-editor-qjhn7?fontsize=14&hidenavigation=1&theme=dark) [![Open in StackBlitz](https://img.shields.io/badge/Open%20In-StackBlitz-green)](https://stackblitz.com/edit/nextjs-lily-text-editor?embed=1&file=pages/index.js&hideExplorer=1&hideNavigation=1&theme=dark)
+[![#52](https://img.shields.io/github/issues/detail/state/uiwjs/lily-text-editor/52)](https://github.com/uiwjs/lily-text-editor/issues/52#issuecomment-848969341)
+[![#224](https://img.shields.io/github/issues/detail/state/uiwjs/lily-text-editor/224)](https://github.com/uiwjs/lily-text-editor/issues/224#issuecomment-901112079)
 
 ```bash
 npm install next-remove-imports
-npm install @b0r0/react-md-editor@v3.6.0
+npm install @b0r0/lily-text-editor@v3.6.0
 ```
 
 ```js
@@ -597,13 +597,13 @@ module.exports = removeImports({});
 ```
 
 ```jsx
-import "@b0r0/react-md-editor/markdown-editor.css";
+import "@b0r0/lily-text-editor/markdown-editor.css";
 import "@b0r0/react-markdown-preview/markdown.css";
 import dynamic from "next/dynamic";
 import { useState } from "react";
 
 const MDEditor = dynamic(
-  () => import("@b0r0/react-md-editor"),
+  () => import("@b0r0/lily-text-editor"),
   { ssr: false }
 );
 
@@ -646,14 +646,14 @@ Inherit custom color variables by adding [`.wmde-markdown-var`](https://github.c
 - `value: string`: The Markdown value.
 - `onChange?: (value?: string, event?: React.ChangeEvent<HTMLTextAreaElement>, state?: ContextStore)`: Event handler for the `onChange` event.
 - `onHeightChange?: ((value?: CSSProperties['height'], oldValue?: CSSProperties['height'], state?: ContextStore)`: editor height change listener.
-- `commands?: ICommand[]`: An array of [`ICommand`](https://github.com/uiwjs/react-md-editor/blob/d02543050c9abd8f7c72ae02b6421ac2e6ae421a/src/commands/index.ts#L39-L57), which, each one, contain a [`commands`](https://github.com/uiwjs/react-md-editor/blob/d02543050c9abd8f7c72ae02b6421ac2e6ae421a/src/commands/index.ts#L155-L180) property. If no commands are specified, the default will be used. Commands are explained in more details below.
+- `commands?: ICommand[]`: An array of [`ICommand`](https://github.com/uiwjs/lily-text-editor/blob/d02543050c9abd8f7c72ae02b6421ac2e6ae421a/src/commands/index.ts#L39-L57), which, each one, contain a [`commands`](https://github.com/uiwjs/lily-text-editor/blob/d02543050c9abd8f7c72ae02b6421ac2e6ae421a/src/commands/index.ts#L155-L180) property. If no commands are specified, the default will be used. Commands are explained in more details below.
 - `commandsFilter?: (command: ICommand, isExtra: boolean) => false | ICommand`: Filter or modify your commands.
 - `extraCommands?: ICommand[]`: Displayed on the right side of the toolbar.
 - `autoFocus?: true`: Can be used to make `Markdown Editor` focus itself on initialization.
 - `previewOptions?: ReactMarkdown.ReactMarkdownProps`: This is reset [@b0r0/react-markdown-preview](https://github.com/uiwjs/react-markdown-preview/tree/e6e8462d9a5c64a7045e25adcb4928095d74ca37#options-props) settings.
 - `textareaProps?: TextareaHTMLAttributes`: Set the `textarea` related props.
-- ~~`renderTextarea?: (props, opts) => JSX.Element;`~~: `@deprecated` Please use ~~`renderTextarea`~~ -> `components`. Use div to replace TextArea or re-render TextArea. [#193](https://github.com/uiwjs/react-md-editor/issues/193)
-- `components`: re-render textarea/toolbar element. [#419](https://github.com/uiwjs/react-md-editor/issues/419)
+- ~~`renderTextarea?: (props, opts) => JSX.Element;`~~: `@deprecated` Please use ~~`renderTextarea`~~ -> `components`. Use div to replace TextArea or re-render TextArea. [#193](https://github.com/uiwjs/lily-text-editor/issues/193)
+- `components`: re-render textarea/toolbar element. [#419](https://github.com/uiwjs/lily-text-editor/issues/419)
 - `height?: number=200`: The height of the editor. ️⚠️ `Dragbar` is invalid when **`height`** parameter percentage.
 - `visibleDragbar?: boolean=true`: Show drag and drop tool. Set the height of the editor.
 - `highlightEnable?: boolean=true`: Disable editing area code highlighting. The value is `false`, which increases the editing speed.
@@ -678,7 +678,7 @@ npm run start  # Preview code example.
 ### Related
 
 - [@b0r0/react-textarea-code-editor](https://github.com/uiwjs/react-textarea-code-editor): A simple code editor with syntax highlighting.
-- [@b0r0/react-md-editor](https://github.com/uiwjs/react-md-editor): A simple markdown editor with preview, implemented with React.js and TypeScript.
+- [@b0r0/lily-text-editor](https://github.com/uiwjs/lily-text-editor): A simple markdown editor with preview, implemented with React.js and TypeScript.
 - [@b0r0/react-codemirror](https://github.com/uiwjs/react-codemirror): CodeMirror component for React. @codemirror
 - [@b0r0/react-monacoeditor](https://github.com/jaywcjlove/react-monacoeditor): Monaco Editor component for React.
 - [@b0r0/react-markdown-editor](https://github.com/uiwjs/react-markdown-editor): A markdown editor with preview, implemented with React.js and TypeScript.
@@ -688,8 +688,8 @@ npm run start  # Preview code example.
 
 As always, thanks to our amazing contributors!
 
-<a href="https://github.com/uiwjs/react-md-editor/graphs/contributors">
-  <img src="https://uiwjs.github.io/react-md-editor/CONTRIBUTORS.svg" />
+<a href="https://github.com/uiwjs/lily-text-editor/graphs/contributors">
+  <img src="https://uiwjs.github.io/lily-text-editor/CONTRIBUTORS.svg" />
 </a>
 
 Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).

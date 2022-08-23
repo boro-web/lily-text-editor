@@ -8,7 +8,7 @@ import lessModules from '@kkt/less-modules';
 export default (conf: Configuration, env: 'production' | 'development', options: LoaderConfOptions) => {
   conf = lessModules(conf, env, options);
   if (options.bundle) {
-    conf.output!.library = '@b0r0/react-md-editor';
+    conf.output!.library = '@b0r0/lily-text-editor';
     conf.externals = {
       react: {
         root: 'React',

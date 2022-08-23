@@ -1,8 +1,8 @@
 {
-  "name": "@b0r0/react-md-editor",
+  "name": "@b0r0/lily-text-editor",
   "version": "3.17.2",
   "description": "A markdown editor with preview, implemented with React.js and TypeScript.",
-  "homepage": "https://uiwjs.github.io/react-md-editor/",
+  "homepage": "https://uiwjs.github.io/lily-text-editor/",
   "author": "kenny wang <wowohoo@qq.com>",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiwjs/react-md-editor"
+    "url": "https://github.com/boro-web/lily-text-editor"
   },
   "files": [
     "markdown-editor.css",

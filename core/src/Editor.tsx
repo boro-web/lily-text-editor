@@ -40,7 +40,7 @@ export interface MDEditorProps extends Omit<React.HTMLAttributes<HTMLDivElement>
    * Custom toolbar heigth
    * @default 29px
    *
-   * @deprecated toolbar height adaptive: https://github.com/uiwjs/react-md-editor/issues/427
+   * @deprecated toolbar height adaptive: https://github.com/uiwjs/lily-text-editor/issues/427
    *
    */
   toolbarHeight?: number;
@@ -117,7 +117,7 @@ export interface MDEditorProps extends Omit<React.HTMLAttributes<HTMLDivElement>
   commands?: ICommand[];
   /**
    * Filter or modify your commands.
-   * https://github.com/uiwjs/react-md-editor/issues/296
+   * https://github.com/uiwjs/lily-text-editor/issues/296
    */
   commandsFilter?: (command: ICommand, isExtra: boolean) => false | ICommand;
   /**
